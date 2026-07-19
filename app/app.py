@@ -66,13 +66,16 @@ class CNN(nn.Module):
 
 model=CNN()
 
+from pathlib import Path
+
+MODEL_PATH = Path(__file__).resolve().parent.parent / "model" / "cnn_chest_xray.pth"
+
 model.load_state_dict(
     torch.load(
-        "../model/cnn_chest_xray.pth",
+        MODEL_PATH,
         map_location=torch.device("cpu")
     )
 )
-
 model.eval()
 
 transform=transforms.Compose([
