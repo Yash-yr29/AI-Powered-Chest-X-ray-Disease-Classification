@@ -18,9 +18,9 @@ This project is one of my first end-to-end Deep Learning applications built to u
 
 The application predicts whether a Chest X-ray belongs to one of the following categories:
 
-- 🫁 Normal
-- 🦠 Pneumonia
-- 🩺 Tuberculosis
+- Normal
+- Pneumonia
+- Tuberculosis
 
 Rather than relying only on pre-trained models, I first designed and trained a **Custom Convolutional Neural Network (CNN)** from scratch to understand how deep learning actually works.
 
@@ -151,51 +151,14 @@ AI-Powered-Chest-X-ray-Disease-Classification
 
 ---
 
-# ⚙️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/Yash-yr29/AI-Powered-Chest-X-ray-Disease-Classification.git
-```
-
-Move into project
-
-```bash
-cd AI-Powered-Chest-X-ray-Disease-Classification
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run app/app.py
-```
-
----
-
 # 💻 Live Demo
 
 **Streamlit App**
 
-> Add your deployed Streamlit URL here
+> https://ai-powered-chest-x-ray-disease-classification-dxqnjzfazcdyk9tk.streamlit.app
 
 ---
 
-# 📷 Screenshots
-
-Add screenshots of:
-
-- Home Page
-- Prediction Screen
-- Upload Interface
-
----
 
 # ⚠ Current Limitation
 
@@ -246,12 +209,8 @@ Each challenge improved my understanding of real-world AI development.
 - Binary Chest X-ray Validation Model
 - Improved Dataset
 - Better Model Accuracy
-- Grad-CAM Visualization
-- Mobile Friendly UI
-- Docker Deployment
-- FastAPI Backend
-
----
+-
+--
 
 # 👨‍💻 Developer
 
@@ -264,16 +223,6 @@ Indian Institute of Information Technology, Nagpur
 GitHub
 
 https://github.com/Yash-yr29
-
----
-
-# ⭐ Support
-
-If you found this project useful,
-
-please consider giving it a ⭐ on GitHub.
-
-It motivates me to build more AI projects.
 
 ---
 
